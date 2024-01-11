@@ -35,3 +35,4 @@ export default class ListItem implements Item {
         this._checked = checked
     }
 }
+// 使用set get的好处：对于使用者来说，他们可以像访问和修改公开属性一样使用这些getter和setter，而不需要知道对应的私有属性。同时，编写类代码的开发者可以在getter和setter中插入自定义的逻辑，例如进行输入值的检查，或者在属性被获取或设置时执行一些额外的操作。
